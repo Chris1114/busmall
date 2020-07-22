@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <link rel='icon' href="favicon.png" type="image/x-icon">
+  <title>Busmall Store</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+ </head>
+ <body>
+     <header>
+        <img id="image-left" src="img/busmall-150-side.gif"/>
+        <h1>...like SkyMall, but for buses</h1>
+     </header>
+     <fieldset>
+        <legend>Easy Order Form</legend>
+         <label for="product-list">Product</label>
+            <select id="product-list" name="product-list">
+                <option selected value="Select">Select</option>
+            </select>         
+                <img class="spacer" src="img/spacer.gif">
+        </label>
+             <input class="quantity" id="quantity" type="number" value="0">
+                <label for="quantity">Quantity</label>
+                <br>
+            <button id="add-to-cart">Add to Cart</button>
+    </fieldset>
+     <div class="item-added" id="item-added"></div>
+     <div>
+         <a href = 'cart.html'>
+        <button class="view-cart-btn" id="view-cart-btn">View/Edit Cart</button>
+         </a>
+     </div>
+     <script src="js/app.js"></script>
+     <script src="js/catalog.js"></script>
+    </body>
+</html>
