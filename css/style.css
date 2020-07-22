@@ -1,0 +1,112 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #F2B705;
+}
+
+header {
+    background-color: #F28705;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+fieldset {
+	border: 1px solid black;
+	border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+legend {
+    font-size: 2em;
+    text-align: center;    
+}
+
+/* .product-list {
+    margin-top: 50px;
+} */
+
+.quantity {
+    width: 50px;
+    margin-bottom: 10px;
+    vertical-align: text-top;
+}
+
+.spacer{
+    width: 50px;
+    height: 20px;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 4px;
+    height: 30px;
+    border-radius: 6px;
+}
+
+#clear-local-storage {
+    color: red;
+}
+
+.item-added {
+    padding: 10px;
+}
+
+.hide {
+    opacity: 0;
+    transition: 300ms ease-out;
+}
+
+.fade-in {
+    padding: 10px;
+    opacity: 1;    
+    transition: 300ms ease-out;
+}
+
+.view-cart-btn {
+    padding: 4px;
+}
+
+
+/* Color Theme Swatches in Hex */
+.Flavour-1-hex { color: #2E5902; }
+.Flavour-2-hex { color: #5EA617; }
+.Flavour-3-hex { color: #F2B705; }
+.Flavour-4-hex { color: #F28705; }
+.Flavour-5-hex { color: #F20505; }
+
+
+/* li {
+    display: inline-block;
+    border: 5px solid lightcoral;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    height: 150px;
+    cursor: pointer;
+    background-color: lightcoral;
+}
+
+.results li {
+  border: white;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+    display: list-item;
+  border-radius: 0%;
+  background-color: white;
+  height: auto;
+  padding: 0%;
+  margin: 0%;
+} */
